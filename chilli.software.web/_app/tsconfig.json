@@ -1,0 +1,23 @@
+﻿{
+  "compileroptions": {
+    "declaration": false,
+    "emitdecoratormetadata": true,
+    "experimentaldecorators": true,
+    "lib": [ "es6", "dom" ],
+    "maproot": "./",
+    "module": "es6",
+    "moduleresolution": "node",
+    "sourcemap": true,
+    "target": "es5",
+    "typeroots": [
+      "../node_modules/@types"
+    ],
+    "baseurl": ".",
+    "paths": {
+      "@node_modules/*": [ "../node_modules/*" ]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

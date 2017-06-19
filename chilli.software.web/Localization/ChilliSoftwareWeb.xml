@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localizationDictionary culture="en">
+  <texts>
+    <!-- HOME -->
+    <text name="home_index_welcome" value="Welcome to Chilli Software" />
+    <text name="home_index_welcome_2" value="Quality software delivered on Time" />
+    <text name="home_index_description" value="Chilli Software House. We deliver the best quality software on time!" />
+    <text name="home_index_title" value="Welcome to Chilli Software" />
+    <text name="home_index_toggle" value="Toggle navigation" />
+    <text name="home_index_services" value="Services" />
+    <text name="home_index_portfolio" value="Portfolio" />
+    <text name="home_index_team" value="Team" />
+    <text name="home_index_contact" value="Contact" />
+    <text name="home_index_find_more" value="Find out More" />
+    <text name="home_index_services_desc" value="We build software to help your company perform better! For us, it's not just another project. We build strong, long term relationship with clients so we can understand and solve your problems faster!" />
+    <text name="home_index_web_apps" value="Web Applications" />
+    <text name="home_index_web_apps_long" value="We develop all sorts of web applications, starting from simple static pages, ending on complex distributed systems. Most of the time we use Microsoft .NET platform and C# programming language. We believe that you have to use right tool for the job, so we don't limit ourselves and use Wordpress, Node.Js, Ruby or Python when needed." />
+    <text name="home_index_responsive" value="Responsive Web Design" />
+    <text name="home_index_responsive_long" value="We deliver our software using Responsive Web Design principles, so they look good on any device. Thanks to using HTML5, SASS and CSS Media Queries as a presentation layer they work perfect on all browsers and operating systems." />
+    <text name="home_index_code" value="Code" />
+    <text name="home_index_code_long" value="We are experts in writing high performing and well tested code. We work hard on critical paths and don't waste your money on parts which are not important. To deliver quality software fast, we use Agile methodologies in connection with best practices of Extreme Programming." />
+    <text name="home_index_web_security" value="Web Security" />
+    <text name="home_index_get_in_touch" value="Get in touch with us today and learn how we can help your business grow." />
+    <text name="home_index_copyright" value="Copyright" />
+    <text name="home_index_privacy_policy" value="Privacy Policy and Contributions" />
+    <text name="home_index_send_message" value="Send Message" />
+    <text name="home_index_fill_message" value="Please enter a message." />
+    <text name="home_index_fill_phone" value="Please enter your phone number." />
+    <text name="home_index_fill_email" value="Please enter your email address." />
+    <text name="home_index_fill_name" value="Please enter your name." />
+    <text name="home_index_get_in_touch_header" value="Get in Touch" />
+    <text name="home_index_web_security_long" value="We care about your data! We store all sensitive data in the cloud where it's well protected and replicated so you will never loose it. By using latest, well tested software frameworks we make our apps much more harder to break." />
+    <text name="home_index_databases" value="Databases" />
+    <text name="home_index_databases_long" value="To make sure that your application perform really well, we carefuly pick database technology for specific project. Most of the time we stick to Microsoft SQL Server or MongoDb, but sometimes we mix them when it makes sense. When high availability is required we recommend using Apache Cassandra." />
+    <text name="home_index_mobile_apps" value="Mobile Applications" />
+    <text name="home_index_mobile_apps_long" value="We can build mobile apps for all major platforms using Xamarin cross-platform development software whch simplifies and speeds up mobile application creation. If platform specific features are required, we can build native apps for iOS, Android and Windows Mobile." />
+    <text name="home_index_about" value="About" />
+    <text name="home_index_about_long" value="We try to work with our clients from early problem definition phase till the end of life of application." />
+    <text name="home_index_problem_definition" value="Problem Definition" />
+    <text name="home_index_problem_definition_h" value="Understanding business problem" />
+    <text name="home_index_problem_definition_long" value="We work with our clients to understand whole problem domain. Thanks to that we are able to create software that solves real business problems, have less bugs and is less complex." />
+    <text name="home_index_sprint_plan" value="Sprint Plan" />
+    <text name="home_index_sprint_plan_h" value="Definition of deliverables" />
+    <text name="home_index_sprint_plan_long" value="Before we start writing code, we carefully plan what features we will deliver within one sprint. We track progress all the time to deliver features fully tested on time." />
+    <text name="home_index_sprint" value="Sprint" />
+    <text name="home_index_sprint_h" value="Writing code and testing" />
+    <text name="home_index_sprint_long" value="We write code using best practices of extreme programming. We use code reviews to make sure that the code we write is extensible, maintainable and bug free. We use automated tests to make regression testing easier." />
+    <text name="home_index_deliverables" value="Deliverables" />
+    <text name="home_index_deliverables_h" value="Delivering software and implementing client feedback" />
+    <text name="home_index_deliverables_long" value="At the end of each sprint we show working software to the client. Since sprints are short, we can get constant feedback and correct all missunderstandings quickly." />
+    <text name="home_index_workwithus" value="Come &lt;br&gt; Work&lt;br&gt; With Us!" />
+    <text name="home_index_who_are_we" value="Who are we" />
+    <text name="home_index_who_are_we_long" value="Currently one man software shop" />
+    <text name="home_index_jm_title" value="Full Stack Developer" />
+    <text name="home_index_jm_long" value="hi, I am full stack software developer currently working with Microsoft .NET platform to deliver ASP.NET MVC web applications. Besides .NET I enjoy working with dynamic languages like Python or Ruby which I use for my personal projects. Lately a big fan of F# functional language" />
+    <text name="home_index_form_name" value="Your Name *" />
+    <text name="home_index_form_email" value="Your Email *" />
+    <text name="home_index_form_phone" value="Your Phone *" />
+    <text name="home_index_form_message" value="Your Message *" />
+    <!-- END HOME -->
+  </texts>
+</localizationDictionary>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localizationDictionary culture="pl">
+  <texts>
+    <text name="home_index_welcome" value="Witaj w Chilli Software" />
+    <text name="home_index_welcome_2" value="Wysoka jakość na czas" />
+    <text name="home_index_description" value="Chilli Software House. Dostarczamy oprogramowanie najwyższej jakości, na czas!" />
+    <text name="home_index_title" value="Witaj w Chilli Software" />
+    <text name="home_index_toggle" value="Pokaż nawigację" />
+    <text name="home_index_services" value="Usługi" />
+    <text name="home_index_portfolio" value="Portfolio" />
+    <text name="home_index_team" value="Zespół" />
+    <text name="home_index_contact" value="Kontakt" />
+    <text name="home_index_find_more" value="Dowiedz się więcej" />
+    <text name="home_index_services_desc" value="Tworzymy oprogramowanie rozwiązujące realne problemy, dzięki któremu usprawnisz procesy i poprawisz wyniki twojej firmy. Budujemy długotrwałe, partnerskie relacje z naszymi klientami, dzięki czemu jesteśmy w stanie zrozumieć i rozwiązywać problemy jeszcze lepiej." />
+    <text name="home_index_web_apps" value="Aplikacje Internetowe" />
+    <text name="home_index_web_apps_long" value="Tworzymy różne rodzaje aplikacji internetowych, poczynając od prostych statycznych stron, kończąc na złożonych systemach rozproszonych. W większości projektów używamy platformy Microsoft .NET oraz języka C#. Wyznajemy zasadę odpowiedniego narzędzia do odpowiedniego zadania i nie ograniczamy się w wyborach technologii." />
+    <text name="home_index_responsive" value="Responsywny Design" />
+    <text name="home_index_responsive_long" value="Podczas implementacji projektów, kierujemy się zasadami Responsive Web Design. Przy użyciu warstwy prezentacji opartej na HTML5, SASS oraz CSS Media Queries jesteśmy w stanie dostarczyć interfejsy użytkownika wyglądające perfekcyjne na każdym systemie operacyjnym i w każdej przeglądarce." />
+    <text name="home_index_code" value="Kod Wysokiej Jakości" />
+    <text name="home_index_code_long" value="Jesteśmy ekspertami w tworzeniu optymalnego, testowalnego kodu. Potrafimy zidentyfikować krytyczne części systemu, dzięki czemu nie tracimy czasu na zbędne, kosztowne optymalizacje. Używamy metodyk zwinnych oraz najlepszych praktyk Extreme Programming, co pozwala nam dostarczać kod wysokiej jakości na czas." />
+    <text name="home_index_web_security" value="Bezpieczeństwo Danych" />
+    <text name="home_index_get_in_touch" value="Skontaktuj się z nami już dziś aby dowiedzieć się jak możemy Ci pomóc rozwinąć Twój biznes." />
+    <text name="home_index_copyright" value="Prawa Autorskie" />
+    <text name="home_index_privacy_policy" value="Polityka Prywatności i Współudział" />
+    <text name="home_index_send_message" value="Wyślij Wiadomość" />
+    <text name="home_index_fill_message" value="Wpisz wiadomość." />
+    <text name="home_index_fill_phone" value="Wpisz numer telefonu." />
+    <text name="home_index_fill_email" value="Wpisz adres email." />
+    <text name="home_index_fill_name" value="Wpisz swoje imię." />
+    <text name="home_index_get_in_touch_header" value="Skontaktuj się z nami" />
+    <text name="home_index_web_security_long" value="Na każdym etapie pracy dbamy o bezpieczeństwo twoich danych. Przechowujemy je w chmurze, gdzie są odpowiednio zabezpieczone i replikowane, tak abyś nigdy nie stracił efektów swojej pracy. Do budowania aplikacji używamy jedynie sprawdzonych rozwiązań, które trudniej złamać." />
+    <text name="home_index_databases" value="Bazy Danych" />
+    <text name="home_index_databases_long" value="Aby zapewnić jak największą wydajność tworzonych aplikacji, dobieramy platformy baz danych najlepiej pasujące do projektu. Przez większość czasu używamy relacyjnej bazy Microsoft SQL Server lub dokumentowej bazy MongoDb. Gdy niezbędna jest wysoka niezawodność implementujemy rozwiązania oparte o Apache Cassandra." />
+    <text name="home_index_mobile_apps" value="Aplikacje Mobilne" />
+    <text name="home_index_mobile_apps_long" value="Tworzymy aplikacje mobilne na trzy główne platformy. W tym celu wykorzystujemy rozwiązanie Xamarin, które pozwala nam uprościć i przyspieszyć cały proces. Jeżeli wymagane są w pełni natywne funkcjonalnośći, budujemy osobne aplikacje na iOS, Android oraz Windows Mobile" />
+    <text name="home_index_about" value="O Nas" />
+    <text name="home_index_about_long" value="Aby osiągnąć najlepsze rezultaty, pracujemy z naszymi klientami przez cały czas trwania projektu, poczynając od definicji problemu, kończąc na jego utrzymaniu" />
+    <text name="home_index_problem_definition" value="Definicja Problemu" />
+    <text name="home_index_problem_definition_h" value="Praca nad zrozumieniem problemu" />
+    <text name="home_index_problem_definition_long" value="Pracujemy razem z klientem aby zgłębić i zrozumieć całą domenę problemu który chcemy rozwiązać. Dzięki temu jesteśmy w stanie stworzyć oprogramowanie rozwiązujące realne problemy biznesu." />
+    <text name="home_index_sprint_plan" value="Planowanie Sprintu" />
+    <text name="home_index_sprint_plan_h" value="Definicja oczekiwanych rezultatów" />
+    <text name="home_index_sprint_plan_long" value="Przed rozpoczęciem kodowania, planujemy co dokładnie dostarczymy klientowi podczas jednego sprintu. Na bieżąco śledzimy postępy aby dostarczać funkcjonalności na czas." />
+    <text name="home_index_sprint" value="Sprint" />
+    <text name="home_index_sprint_h" value="Kodowanie i testowanie" />
+    <text name="home_index_sprint_long" value="Podczas pisania kodu kierujemy się najlepszymi praktykami Extreme Programming, co pozwala nam tworzyć łatwe w utrzymaniu i rozszerzalne aplikacje. Testy automatyczne sprawiają iż dodawanie nowych funkcjonalności jest dużo bezpieczniejsze, dzięki testom regresyjnym." />
+    <text name="home_index_deliverables" value="Rezultaty" />
+    <text name="home_index_deliverables_h" value="Dostarczamy oprogramowanie i wprowadzamy poprawki" />
+    <text name="home_index_deliverables_long" value="Pod koniec każdego sprintu robimy demo dla klienta. Ze względu na krótki czas trwania sprintów i ciągły feedback od klienta oddalamy ryzyko niepowodzenia projektu." />
+    <text name="home_index_workwithus" value="Zapraszamy&lt;br&gt; Do &lt;br&gt; Współpracy!" />
+    <text name="home_index_who_are_we" value="Kim jesteśmy" />
+    <text name="home_index_who_are_we_long" value="Obecnie jedno osobowy software house" />
+    <text name="home_index_jm_title" value="Programista" />
+    <text name="home_index_jm_long" value="hej, Jestem programistą, który głównie pracuje z techologią Microsoft .NET i frameworkiem ASP.NET MVC. Poza platformą .NET interesuję się dynamicznie typowanymi językami jak Python i JavaScript. Jestem również wielkim fanem opartego o platformę .NET języka F#." />
+    <text name="home_index_form_name" value="Twoje Imię *" />
+    <text name="home_index_form_email" value="Twój Adres Email *" />
+    <text name="home_index_form_phone" value="Twój Telefon *" />
+    <text name="home_index_form_message" value="Twoja Wiadomość *" />
+  </texts>
+</localizationDictionary>

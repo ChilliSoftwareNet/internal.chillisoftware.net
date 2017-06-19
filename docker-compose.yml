@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  chilli.software.web:
+    image: chilli.software.web
+    build:
+      context: ./chilli.software.web
+      dockerfile: Dockerfile
