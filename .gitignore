@@ -46,3 +46,5 @@ dist
 bin
 obj
 .vs/*
+
+Logs
