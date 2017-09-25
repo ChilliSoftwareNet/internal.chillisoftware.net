@@ -33,5 +33,8 @@
   <ItemGroup>
     <ProjectReference Include="..\chilli.software.common\chilli.software.common.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\_app\" />
+  </ItemGroup>
 
 </Project>
