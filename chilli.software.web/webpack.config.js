@@ -11,16 +11,16 @@ module.exports = {
     },
     entry: {
         shared: [
-            './_app/style/shared/vendor.scss',
-            './_app/style/shared/style.scss',
+            './_app/styles/shared/vendor.scss',
+            './_app/styles/shared/style.scss',
             'bootstrap',
             'jquery.easing',
-            './_app/script/shared/script.ts'
+            './_app/scripts/shared/script.ts'
         ],
-        home: './_app/style/home/style.scss'
+        home: './_app/styles/home/style.scss'
     },
     output: {
-        filename: '_app/script/[name]/script.bundle.js',
+        filename: '_app/scripts/[name]/script.bundle.js',
         path: path.resolve(__dirname, 'wwwroot'),
         publicPath: ""
     },
@@ -30,9 +30,9 @@ module.exports = {
                 test: /\.woff($|\?)|\.woff2($|\?)|\.ttf($|\?)|\.eot($|\?)|\.svg($|\?)/,
                 loader: 'file-loader',
                 options: {
-                    name: "_app/style/shared/[name].[ext]",
+                    name: "_app/styles/shared/[name].[ext]",
                     publicPath: function (url) {
-                        return url.replace("_app/style/shared/", "");
+                        return url.replace("_app/styles/shared/", "");
                     }
                 }
             },
@@ -46,7 +46,7 @@ module.exports = {
         ]
     },
     plugins: [
-        new ExtractTextPlugin("_app/style/[name]/style.bundle.css"),
+        new ExtractTextPlugin("_app/styles/[name]/style.bundle.css"),
         new webpack.ProvidePlugin({
             $: 'jquery',
             jQuery: 'jquery'

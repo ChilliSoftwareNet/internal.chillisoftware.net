@@ -13,7 +13,6 @@ namespace chilli.software.web.Localization.Configuration
         public static void Configure(ILocalizationConfiguration localizationConfiguration)
         {
             localizationConfiguration.Languages.Add(new LanguageInfo("en", "English", isDefault: true));
-            localizationConfiguration.Languages.Add(new LanguageInfo("pl", "Polski"));
             localizationConfiguration.Sources.Add(
                 new DictionaryBasedLocalizationSource(AppConst.AppName,
                     new XmlEmbeddedFileLocalizationDictionaryProvider(
