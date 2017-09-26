@@ -6,17 +6,19 @@ export class Shared {
     changeHeaderOnScrollPixels: number = 220;
 
     constructor(
-        private $,
-        private window,
-        private document
+        private readonly $,
+        private readonly window,
+        private readonly document
     ) {
         this.header = this.$(".navbar-default");
     }
 
     init = () => {
-        this.initHeaderAnimation();
-        this.initMenuScrollSpy();
-        this.initPageScrollSmooth();
+        this.$("document").ready(() => {
+            this.initHeaderAnimation();
+            this.initMenuScrollSpy();
+            this.initPageScrollSmooth();
+        });
     }
 
     initPageScrollSmooth = () => {

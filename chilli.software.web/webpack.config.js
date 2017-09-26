@@ -11,16 +11,21 @@ module.exports = {
     },
     entry: {
         shared: [
-            './_app/styles/shared/vendor.scss',
-            './_app/styles/shared/style.scss',
+            './_app/shared/styles/vendor.scss',
+            './_app/shared/styles/style.scss',
             'bootstrap',
             'jquery.easing',
-            './_app/scripts/shared/script.ts'
+            'jquery-validation',
+            'knockout',
+            './_app/shared/scripts/script.ts'
         ],
-        home: './_app/styles/home/style.scss'
+        home: [
+            './_app/home/styles/style.scss',
+            './_app/home/scripts/contactForm.ts'
+        ]
     },
     output: {
-        filename: '_app/scripts/[name]/script.bundle.js',
+        filename: '_app/[name]/scripts/script.bundle.js',
         path: path.resolve(__dirname, 'wwwroot'),
         publicPath: ""
     },
@@ -30,9 +35,9 @@ module.exports = {
                 test: /\.woff($|\?)|\.woff2($|\?)|\.ttf($|\?)|\.eot($|\?)|\.svg($|\?)/,
                 loader: 'file-loader',
                 options: {
-                    name: "_app/styles/shared/[name].[ext]",
+                    name: "_app/shared/styles/[name].[ext]",
                     publicPath: function (url) {
-                        return url.replace("_app/styles/shared/", "");
+                        return url.replace("_app/shared/styles/", "");
                     }
                 }
             },
@@ -46,7 +51,7 @@ module.exports = {
         ]
     },
     plugins: [
-        new ExtractTextPlugin("_app/styles/[name]/style.bundle.css"),
+        new ExtractTextPlugin("_app/[name]/styles/style.bundle.css"),
         new webpack.ProvidePlugin({
             $: 'jquery',
             jQuery: 'jquery'

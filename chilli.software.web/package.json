@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start" :  "concurrently \"npm run webpack\" \"npm run dotnet \"",
+    "start": "concurrently \"npm run webpack\" \"npm run dotnet \"",
     "webpack": "webpack-dev-server -w",
     "dotnet": "dotnet watch run"
   },
@@ -15,7 +15,9 @@
     "bootstrap": "^3.3.7",
     "font-awesome": "^4.7.0",
     "jquery": "^3.2.1",
-    "jquery.easing": "^1.4.1"
+    "jquery-validation": "^1.17.0",
+    "jquery.easing": "^1.4.1",
+    "knockout": "^3.4.2"
   },
   "devDependencies": {
     "concurrently": "^3.5.0",

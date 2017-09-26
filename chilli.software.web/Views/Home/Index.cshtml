@@ -203,31 +203,31 @@
         <div class="row">
             <div class="col-lg-12">
                 <form name="contactForm" id="contactForm" novalidate>
-                    <div class="row">
+                    <div class="row form-group">
                         <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder='@L("home_index_form_name")' id="name" required data-validation-required-message='@L("home_index_fill_name")'>
-                                <p class="help-block text-danger"></p>
+                            <div>
+                                <input name="name" type="text" class="form-control" data-bind="value: name" placeholder='@L("home_index_form_name")' id="name" required data-msg='@L("home_index_fill_name")'>
+                                <label for="name" class="error text-danger"></label>
                             </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control" placeholder='@L("home_index_form_email")' id="email" required data-validation-required-message='@L("home_index_fill_email")'>
-                                <p class="help-block text-danger"></p>
+                            <div>
+                                <input name="email" type="email" class="form-control" data-bind="value: email" placeholder='@L("home_index_form_email")' id="email" required data-msg='@L("home_index_fill_email")'>
+                                <label for="email" class="error text-danger"></label>
                             </div>
-                            <div class="form-group">
-                                <input type="tel" class="form-control" placeholder='@L("home_index_form_phone")' id="phone" required data-validation-required-message='@L("home_index_fill_phone")'>
-                                <p class="help-block text-danger"></p>
+                            <div>
+                                <input name="phone" type="tel" class="form-control" data-bind="value: phone" placeholder='@L("home_index_form_phone")' id="phone" required data-msg='@L("home_index_fill_phone")'>
+                                <label for="phone" class="error text-danger"></label>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="form-group">
-                                <textarea class="form-control" placeholder='@L("home_index_form_message")' id="message" required data-validation-required-message='@L("home_index_fill_message")'></textarea>
-                                <p class="help-block text-danger"></p>
+                            <div>
+                                <textarea name="message" class="form-control" data-bind="value: message" placeholder='@L("home_index_form_message")' id="message" required data-msg='@L("home_index_fill_message")'></textarea>
+                                <label for="message" class="error text-danger"></label>
                             </div>
                         </div>
                         <div class="clearfix"></div>
                         <div class="col-lg-12 text-center">
                             <div id="success"></div>
-                            <button type="submit" class="btn btn-xl">@L("home_index_send_message")</button>
+                            <button type="submit" data-bind="click: sendEmail" class="btn btn-xl">@L("home_index_send_message")</button>
                         </div>
                     </div>
                 </form>
