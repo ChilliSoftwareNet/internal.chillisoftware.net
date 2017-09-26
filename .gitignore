@@ -48,3 +48,5 @@ obj
 .vs/*
 
 Logs
+
+wwwroot/_app

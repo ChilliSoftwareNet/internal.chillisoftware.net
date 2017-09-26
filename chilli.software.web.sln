@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.13
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chilli.software.web", "chilli.software.web\chilli.software.web.csproj", "{2FF18E38-6CB1-470E-B426-9208B047E035}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chilli.software.web", "chilli.software.web\chilli.software.web.csproj", "{2FF18E38-6CB1-470E-B426-9208B047E035}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{52BE2A09-F8FA-4CBB-9711-ADD3FB6DE487}"
 EndProject
@@ -37,5 +37,8 @@ Global
 		{2FF18E38-6CB1-470E-B426-9208B047E035} = {C9E63F9F-ACEF-4904-AFA2-AB1D1A7E7C29}
 		{52BE2A09-F8FA-4CBB-9711-ADD3FB6DE487} = {B2422519-60A4-4574-8EF6-587B06AF2D81}
 		{6870A273-ECB2-4E40-B7F7-47FAD9D803E8} = {C9E63F9F-ACEF-4904-AFA2-AB1D1A7E7C29}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8598D29-8933-42FF-9D4D-5183FC2FC10A}
 	EndGlobalSection
 EndGlobal

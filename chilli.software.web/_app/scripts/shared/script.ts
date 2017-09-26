@@ -13,13 +13,13 @@ export class Shared {
         this.header = this.$(".navbar-default");
     }
 
-    public init = () => {
+    init = () => {
         this.initHeaderAnimation();
         this.initMenuScrollSpy();
         this.initPageScrollSmooth();
     }
 
-    public initPageScrollSmooth = () => {
+    initPageScrollSmooth = () => {
         this.$("a.page-scroll").bind("click", (event) => {
             var anchor = this.$(event.target);
 
@@ -31,13 +31,13 @@ export class Shared {
         });
     }
 
-    public initMenuScrollSpy = () => {
+    initMenuScrollSpy = () => {
         this.$("body").scrollspy({
             target: '.navbar-fixed-top'
         });
     }
 
-    public initHeaderAnimation = () => {
+    initHeaderAnimation = () => {
         this.scroll();
 
         this.$(this.window).on("scroll", (e) => {
@@ -48,7 +48,7 @@ export class Shared {
         });
     }
 
-    public scroll = () => {
+    scroll = () => {
         let currentOffset = this.window.pageYOffset || this.document.scrollTop;
 
         if (currentOffset >= this.changeHeaderOnScrollPixels) {

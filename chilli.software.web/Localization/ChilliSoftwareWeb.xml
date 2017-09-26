@@ -56,7 +56,7 @@
     <text name="home_index_form_name" value="Your Name *" />
     <text name="home_index_form_email" value="Your Email *" />
     <text name="home_index_form_phone" value="Your Phone *" />
-    <text name="home_index_form_message" value="Your Message *" />
+    <text name="home_index_form_message" value="Message *" />
     <!-- END HOME -->
   </texts>
 </localizationDictionary>
