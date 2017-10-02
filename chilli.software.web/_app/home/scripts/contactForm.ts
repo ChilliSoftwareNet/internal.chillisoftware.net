@@ -21,6 +21,7 @@ class ContactForm {
     init = () => {
         this.$("document").ready(() => {
             this.ko.applyBindings(this.contactData);
+            this.$("#contactForm").validate({});
         });
     }
 

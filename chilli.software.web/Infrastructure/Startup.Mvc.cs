@@ -5,12 +5,12 @@ namespace chilli.software.web.Infrastructure
 {
     public partial class Startup
     {
-        private void AddMvc(IServiceCollection services)
+        private static void AddMvc(IServiceCollection services)
         {
             services.AddMvc();
         }
 
-        private void UseMvc(IApplicationBuilder app)
+        private static void UseMvc(IApplicationBuilder app)
         {
             app.UseMvc(r =>
             {

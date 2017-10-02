@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reflection;
 using Abp.AspNetCore;
 using Abp.Castle.Logging.Log4Net;
 using Castle.Facilities.Logging;
@@ -17,6 +18,7 @@ namespace chilli.software.web.Infrastructure
                 a.IocManager.IocContainer.AddFacility<LoggingFacility>(
                     f => f.UseAbpLog4Net().WithConfig("log4net.config")
                 );
+                a.IocManager.RegisterAssemblyByConvention(Assembly.GetExecutingAssembly());
             });
         }
 

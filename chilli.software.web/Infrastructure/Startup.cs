@@ -25,6 +25,7 @@ namespace chilli.software.web.Infrastructure
             }
 
             app.UseStaticFiles();
+
             UseAbp(app);
             UseMvc(app);
         }
