@@ -27,6 +27,21 @@ class ContactForm {
 
     sendEmail = () => {
         if (this.$("#contactForm").valid()) {
+            this.$.post({
+                type: "POST",
+                url: "/api/home/SendEmail",
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                data: JSON.stringify({
+                    name: this.contactData.name(),
+                    email: this.contactData.email(),
+                    phone: this.contactData.phone(),
+                    message: this.contactData.message()
+                }),
+                success: (response: any) => {
+
+                }
+            });
             console.log(this.contactData.name());
         }
     }

@@ -14,10 +14,10 @@ namespace chilli.software.web.Controllers.Api
             _homeService = homeService;
         }
 
-        [HttpGet("SendEmail")]
-        public IActionResult SendEmail()
+        [HttpPost("SendEmail")]
+        public JsonResult SendEmail([FromBody] SendEmailRequestModel request)
         {
-            return Ok();
+            return Json(new {});
         }
     }
 }
