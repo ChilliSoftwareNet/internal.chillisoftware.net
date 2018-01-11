@@ -1,6 +1,7 @@
 ﻿using Abp.AspNetCore.Mvc.Controllers;
 using chilli.software.web.Domain.Home.Services;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 namespace chilli.software.web.Controllers.Api
 {
@@ -15,9 +16,9 @@ namespace chilli.software.web.Controllers.Api
         }
 
         [HttpPost("SendEmail")]
-        public JsonResult SendEmail([FromBody] SendEmailRequestModel request)
+        public async Task<JsonResult> SendEmail([FromBody] SendEmailRequestModel request)
         {
-            return Json(new {});
+            return Json(await _homeService.SendEmail(request));
         }
     }
 }
